@@ -3,7 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+:root {
+  --white: white;
+  --black: black;
+  --Infinity: #212832;
+  --Matt-Purple: #8a79df;
+  --Soft-Charcoal: #84829a;
+  --Dusty-Orange: #df6951;
+  --Fly-by-Night: #181e4b;
+  --Santas-Grey: #9ca0b0;
+  --Gorgonzola-Blue: #4152ca;
+  --Strong-Irise: #5e6282;
+  --Lemon-Dream: #f1a501;
+  --Deadly-Depths: #14183e;
+  --Ocean-Depths: #006380;
+}
 .container {
   padding: 0 15px;
   margin: auto;
