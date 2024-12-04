@@ -185,3 +185,11 @@ header .container nav ul li select {
   top: 0;
   z-index: -1;
 }
+@media (max-width:991px) {
+  .hero .container .image{
+    display: none;
+  }
+  .hero .container .identification h1{
+    font-size: 70px;
+  }
+}
