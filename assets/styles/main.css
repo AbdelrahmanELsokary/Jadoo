@@ -17,6 +17,7 @@
   --Lemon-Dream: #f1a501;
   --Deadly-Depths: #14183e;
   --Ocean-Depths: #006380;
+  --Fly-by-Night2: #1e1d4c;
 }
 .container {
   padding: 0 15px;
@@ -185,11 +186,93 @@ header .container nav ul li select {
   top: 0;
   z-index: -1;
 }
-@media (max-width:991px) {
-  .hero .container .image{
+@media (max-width: 991px) {
+  .hero .container .image {
     display: none;
   }
-  .hero .container .identification h1{
+  .hero .container .identification h1 {
     font-size: 70px;
   }
+}
+.offer_best_services .container {
+  position: relative;
+  padding-top: 70px;
+}
+.offer_best_services .container .image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 70px;
+}
+.offer_best_services .container h2,
+h4 {
+  text-align: center;
+}
+.offer_best_services .container h4 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+}
+.offer_best_services .container h2 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Volkhov", serif;
+  padding-top: 10px;
+  color: var(--Deadly-Depths);
+}
+.offer_best_services .container .our_services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+.offer_best_services .container .our_services .service {
+  text-align: center;
+  position: relative;
+}
+.offer_best_services .container .our_services .service h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: var(--Fly-by-Night2);
+  padding-top: 15px;
+}
+.offer_best_services .container .our_services .service p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: var(--Strong-Irise);
+  padding-top: 10px;
+}
+.offer_best_services .container .our_services .service_flights {
+
+  box-shadow: 0px 1.85px 3.15px 0px #0000005a;
+  background-color: var(--white);
+  text-align: center;
+  position: relative;
+  border-radius: 0 0 0 36px;
+  padding: 20px;
+}
+.offer_best_services .container .our_services .service_flights::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: -20px;
+  bottom: -35px;
+  background-image: url(../images/Rectangle.webp);
+  z-index: -1;
+}
+.offer_best_services .container .our_services .service_flights h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: var(--Fly-by-Night2);
+}
+.offer_best_services .container .our_services .service_flights p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: var(--Strong-Irise);
+  padding-top: 10px;
 }
