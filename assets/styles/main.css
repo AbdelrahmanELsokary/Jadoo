@@ -10,15 +10,18 @@
   --Matt-Purple: #8a79df;
   --Soft-Charcoal: #84829a;
   --Dusty-Orange: #df6951;
+  --Hot-Embers: #f15a2b;
   --Fly-by-Night: #181e4b;
   --Santas-Grey: #9ca0b0;
   --Gorgonzola-Blue: #4152ca;
   --Strong-Irise: #5e6282;
   --Lemon-Dream: #f1a501;
+  --Drippy-Honey: #f0bb1f;
   --Deadly-Depths: #14183e;
   --Ocean-Depths: #006380;
   --Fly-by-Night2: #1e1d4c;
   --Reversed-Grey: #080809;
+  --White-Smoke: #f5f5f5;
 }
 .container {
   padding: 0 15px;
@@ -299,6 +302,7 @@ h4 {
 }
 .top_destinations .container .destiantions {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 50px;
 }
@@ -336,6 +340,11 @@ h4 {
   border-radius: 24px;
   position: relative;
 }
+@media (max-width: 700px) {
+  .top_destinations .container .destiantions .selling2::before {
+    display: none;
+  }
+}
 .top_destinations .container .destiantions .selling2 .massege span {
   font-size: 16px;
   font-weight: 500;
@@ -357,4 +366,180 @@ h4 {
   right: -70px;
   bottom: 0;
   z-index: -1;
+}
+.your_next_trip .container {
+  padding-top: 60px;
+}
+.your_next_trip .container .travel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.your_next_trip .container span {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: var(--Strong-Irise);
+}
+.your_next_trip .container h2 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Volkhov", serif;
+  text-transform: capitalize;
+}
+.your_next_trip .container .steps {
+  display: flex;
+  align-items: center;
+}
+.your_next_trip .container .steps .image {
+  width: 47px;
+  height: 48px;
+  background-color: var(--Drippy-Honey);
+  border-radius: 13px;
+  background-image: url(../icons/selection\ 1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.your_next_trip .container .steps .info_steps {
+  padding: 20px;
+}
+.your_next_trip .container .steps .info_steps h3 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins", serif;
+  color: var(--Strong-Irise);
+}
+.your_next_trip .container .steps .info_steps p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", serif;
+  color: var(--Strong-Irise);
+  line-height: 19px;
+  padding-top: 3px;
+}
+.your_next_trip .container .steps .image1 {
+  width: 47px;
+  height: 48px;
+  background-color: var(--Hot-Embers);
+  border-radius: 13px;
+  background-image: url(../icons/water-sport\ 1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.your_next_trip .container .steps .image2 {
+  width: 47px;
+  height: 48px;
+  background-color: var(--Ocean-Depths);
+  border-radius: 13px;
+  background-image: url(../icons/taxi.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image_info {
+  background-color: var(--white);
+}
+.image_info .information h3 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: var(--Reversed-Grey);
+  padding-top: 20px;
+}
+.image_info .information span {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+.your_next_trip .container .image_info {
+  background-color: var(--white);
+  box-shadow: 0px 1.85px 3.15px 3px #00000009;
+  border-radius: 26px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.your_next_trip .container .image_info .icons {
+  display: flex;
+  gap: 15px;
+  padding-top: 15px;
+}
+.your_next_trip .container .image_info .icons .icon1 {
+  width: 36px;
+  height: 36px;
+  background-color: var(--White-Smoke);
+  border-radius: 50%;
+  background-image: url(../icons/leaf\ 1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.your_next_trip .container .image_info .icons .icon2 {
+  width: 36px;
+  height: 36px;
+  background-color: var(--White-Smoke);
+  border-radius: 50%;
+  background-image: url(../icons/Group.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.your_next_trip .container .image_info .icons .icon3 {
+  width: 36px;
+  height: 36px;
+  background-color: var(--White-Smoke);
+  border-radius: 50%;
+  background-image: url(../icons/send\ 2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.your_next_trip .container .image_info .people {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.your_next_trip .container .mosque {
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 8.15px 6.52px 0px #00000023;
+  border-radius: 18px;
+  height: fit-content;
+  position: absolute;
+  right: -150px;
+  bottom: 50px;
+  padding: 20px;
+}
+.your_next_trip .container .mosque img {
+  border-radius: 50%;
+  display: flex;
+  margin-bottom: 30px;
+}
+.your_next_trip .container .mosque .info_mosque {
+  padding: 10px;
+}
+.your_next_trip .container .mosque .info_mosque span {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  letter-spacing: -3.5%;
+  color: var(--Soft-Charcoal);
+  padding-top: 10px;
+}
+.your_next_trip .container .mosque .info_mosque h5 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  letter-spacing: -1.5%;
+}
+.your_next_trip .container .mosque .info_mosque h6 {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: var(--Reversed-Grey);
+  letter-spacing: -5.5%;
+  padding-top: 10px;
+}
+.your_next_trip .container .mosque .info_mosque h6 span {
+  color: var(--Matt-Purple);
 }
