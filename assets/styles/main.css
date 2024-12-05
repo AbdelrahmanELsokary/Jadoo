@@ -377,6 +377,7 @@ h4 {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 30px;
+  position: relative;
 }
 .your_next_trip .container span {
   font-size: 18px;
@@ -500,6 +501,13 @@ h4 {
   justify-content: space-between;
   padding-top: 15px;
 }
+.ellebse {
+  position: absolute;
+  right: -135px;
+  top: -100px;
+  width: 400px;
+  z-index: -1;
+}
 .your_next_trip .container .mosque {
   display: flex;
   align-items: center;
@@ -545,11 +553,14 @@ h4 {
 .your_next_trip .container .mosque .info_mosque h6 span {
   color: var(--Matt-Purple);
 }
-@media (max-width: 1440px) {
+@media (max-width: 1455px) {
   .your_next_trip .container .mosque {
     bottom: -150px;
     right: 10px;
     position: absolute;
+  }
+  .ellebse {
+    display: none;
   }
 }
 @media (max-width: 991px) {
