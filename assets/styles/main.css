@@ -24,7 +24,7 @@
   --Diplomatic: #39425d;
   --White-Smoke: #f5f5f5;
   --Cold-Morning: #e5e5e5;
-  --: ;
+  --Lynx-White: #f7f7f7;
 }
 .container {
   padding: 0 15px;
@@ -593,6 +593,7 @@ h4 {
 }
 .what_people_say_about_us .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 150px;
 }
@@ -667,7 +668,7 @@ h4 {
   position: absolute;
   box-shadow: 0px 1.85px 3.15px 0px #00000043;
   border-radius: 10px;
-  border: 3px solid #f7f7f7;
+  border: 3px solid var(--Lynx-White);
   bottom: -70px;
   left: 30px;
   width: 100%;
@@ -684,4 +685,9 @@ h4 {
   font-size: 14px;
   margin-bottom: -20px;
   padding: 15px 0;
+}
+.arrow img {
+  display: block;
+  padding-top: 35px;
+  margin-top: 20px;
 }
