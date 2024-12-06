@@ -566,7 +566,8 @@ h4 {
   .ellebse {
     display: none;
   }
-  .decore {
+  .decore,
+  .subscribe .decore1 {
     display: none;
   }
   .what_people_say_about_us .container {
@@ -698,9 +699,9 @@ h4 {
 .prands .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 50px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 150px;
 }
 .expedia {
@@ -712,6 +713,8 @@ h4 {
   border-radius: 105px 20px 20px 20px;
   padding: 80px;
   margin-top: 100px;
+  z-index: -1;
+  position: relative;
 }
 .subscribe .container p {
   font-size: 33px;
@@ -760,4 +763,30 @@ h4 {
   padding-right: 70px;
   margin-top: -100px;
   z-index: -1;
+}
+.subscribe .decore1 {
+  margin-top: -27px;
+}
+.subscribe .decore1 img {
+  margin-top: -250px;
+  margin-left: 180px;
+}
+.subscribe .send {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(201.65deg, #747def 10.27%, #5e3be1 100%);
+  border-radius: 50%;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+}
+.decore4{
+  width: 300px;
+  position: absolute;
+  right: -40px;
+  bottom: 40px;
+  rotate: -90deg;
 }
