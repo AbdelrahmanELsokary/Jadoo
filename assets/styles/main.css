@@ -567,7 +567,9 @@ h4 {
     display: none;
   }
   .decore,
-  .subscribe .decore1 {
+  .subscribe .decore1,
+  .decore4,
+  .subscribe .container .send {
     display: none;
   }
   .what_people_say_about_us .container {
@@ -783,10 +785,116 @@ h4 {
   right: -15px;
   top: -15px;
 }
-.decore4{
+.subscribe .decore4 {
   width: 300px;
   position: absolute;
   right: -40px;
   bottom: 40px;
   rotate: -90deg;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+footer .container .logo a {
+  font-size: 44px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: var(--Fly-by-Night);
+}
+footer .container .logo p {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: var(--Strong-Irise);
+  padding-top: 10px;
+}
+footer .container .about_us {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .about_us .about h3 {
+  font-size: 21px;
+  font-weight: 700;
+  font-family: "Poppins", serif;
+  color: var(--Reversed-Grey);
+  padding-bottom: 10px;
+}
+footer .container .about_us .about a {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: var(--Strong-Irise);
+  padding-top: 10px;
+}
+footer .container .social {
+  text-align: center;
+}
+footer .container .social .social_icon {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 20px 0;
+}
+footer .container .social .social_icon .facebook {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: var(--white);
+  background-image: url(../icons/Facebook\ Icon.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 2px 10px 0px #0000001a;
+}
+footer .container .social .social_icon .instagram {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-image: url(../icons/instagram\ 1.webp),
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #b8d2f1 0deg,
+      #f289aa 60deg,
+      #c68bf0 106.09deg,
+      #d164da 153.75deg,
+      #c963e8 221.25deg,
+      #bfc2e8 258.75deg,
+      #ffc999 288.75deg,
+      #d0d8c9 315deg,
+      #bad0f1 334.13deg,
+      #e3fbdc 358.97deg,
+      rgb(212, 150, 150) 360deg
+    );
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 2px 10px 0px #0000001a;
+}
+footer .container .social .social_icon .twiter {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: var(--white);
+  background-image: url(../icons/twitter.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 2px 10px 0px #0000001a;
+}
+footer .container .social span {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: var(--Strong-Irise);
+}
+footer .container .social .app {
+  padding: 20px 0;
+}
+footer .copyright {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: var(--Strong-Irise);
+  padding: 30px;
 }
