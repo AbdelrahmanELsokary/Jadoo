@@ -557,28 +557,7 @@ h4 {
 .your_next_trip .container .mosque .info_mosque h6 span {
   color: var(--Matt-Purple);
 }
-@media (max-width: 1455px) {
-  .your_next_trip .container .mosque {
-    bottom: -150px;
-    right: 10px;
-    position: absolute;
-  }
-  .ellebse {
-    display: none;
-  }
-  .decore,
-  .subscribe .decore1,
-  .decore4,
-  .subscribe .container .send {
-    display: none;
-  }
-  .what_people_say_about_us .container {
-    margin-top: 100px;
-  }
-  .what_people_say_about_us .container .client .client1 .client2 {
-    left: 0;
-  }
-}
+
 @media (max-width: 991px) {
   .your_next_trip .container {
     text-align: center;
@@ -729,6 +708,7 @@ h4 {
 .subscribe .container .input_subscribe {
   display: flex;
   align-items: center;
+  gap: 20px;
   justify-content: center;
   padding-top: 50px;
 }
@@ -758,7 +738,6 @@ h4 {
   font-size: 17px;
   font-weight: 600;
   padding: 13px 14px;
-  margin-left: 15px;
 }
 .subscribe .decore {
   text-align: end;
@@ -794,6 +773,7 @@ h4 {
 }
 footer .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 100px;
 }
@@ -813,6 +793,7 @@ footer .container .logo p {
 footer .container .about_us {
   width: 50%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 footer .container .about_us .about h3 {
@@ -897,4 +878,32 @@ footer .copyright {
   font-family: "Poppins", serif;
   color: var(--Strong-Irise);
   padding: 30px;
+}
+@media (max-width: 440px) {
+  footer .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1455px) {
+  .your_next_trip .container .mosque {
+    bottom: -150px;
+    right: 10px;
+    position: absolute;
+  }
+  .ellebse {
+    display: none;
+  }
+  .decore,
+  .subscribe .decore1,
+  .decore4,
+  .subscribe .container .send {
+    display: none;
+  }
+  .what_people_say_about_us .container {
+    margin-top: 100px;
+  }
+  .what_people_say_about_us .container .client .client1 .client2 {
+    left: 0;
+  }
 }
