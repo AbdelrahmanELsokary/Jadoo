@@ -55,7 +55,7 @@ img {
 header .container {
   display: flex;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 15px;
   align-items: center;
 }
 header .container label {
