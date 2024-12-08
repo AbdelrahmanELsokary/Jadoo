@@ -198,14 +198,6 @@ header .container nav ul li select {
   top: 0;
   z-index: -1;
 }
-@media (max-width: 991px) {
-  .hero .container .image {
-    display: none;
-  }
-  .hero .container .identification h1 {
-    font-size: 70px;
-  }
-}
 .offer_best_services .container {
   position: relative;
   padding-top: 100px;
@@ -557,8 +549,13 @@ h4 {
 .your_next_trip .container .mosque .info_mosque h6 span {
   color: var(--Matt-Purple);
 }
-
 @media (max-width: 991px) {
+  .hero .container .image {
+    display: none;
+  }
+  .hero .container .identification h1 {
+    font-size: 70px;
+  }
   .your_next_trip .container {
     text-align: center;
   }
