@@ -227,9 +227,8 @@ h4 {
 .offer_best_services .container .our_services {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  align-items: center;
-  justify-content: space-between;
+  gap: 100px;
+  justify-content: space-around;
   padding-top: 70px;
 }
 .offer_best_services .container .our_services .service {
