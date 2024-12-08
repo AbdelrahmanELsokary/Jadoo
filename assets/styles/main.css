@@ -159,6 +159,7 @@ header .container nav ul li select {
 }
 .hero .container .identification .btn_hero {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: 40px;
 }
@@ -174,7 +175,7 @@ header .container nav ul li select {
 .hero .container .identification .play_btn {
   display: flex;
   align-items: center;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 .hero .container .identification .play_btn .image_play {
   background-image: url(../icons/Polygon\ 1.webp);
@@ -790,7 +791,9 @@ footer .container .about_us {
   width: 50%;
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   justify-content: space-between;
+  padding-top: 20px;
 }
 footer .container .about_us .about h3 {
   font-size: 21px;
@@ -813,7 +816,7 @@ footer .container .social {
 footer .container .social .social_icon {
   display: flex;
   justify-content: space-around;
-  padding: 0 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 footer .container .social .social_icon .facebook {
   width: 41px;
