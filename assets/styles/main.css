@@ -312,9 +312,9 @@ h4 {
 .top_destinations .container .destiantions .selling {
   box-shadow: 0 1.85px 3.15px 0 #00000038;
   border-radius: 24px;
+  padding: 10px;
 }
-.top_destinations .container .destiantions .selling,
-.selling2 span {
+.top_destinations .container .destiantions .selling span {
   font-size: 18px;
   font-weight: 500;
   font-family: "Poppins", serif;
@@ -333,26 +333,12 @@ h4 {
   padding-left: 10px;
 }
 .top_destinations .container .destiantions .selling2 {
-  background-color: var(--white);
-  box-shadow: 0px 1.85px 3.15px 0px #00000038;
-  border-radius: 24px;
   position: relative;
 }
 @media (max-width: 1295px) {
   .top_destinations .container .destiantions .selling2::before {
     display: none;
   }
-}
-.top_destinations .container .destiantions .selling2 .massege span {
-  font-size: 16px;
-  font-weight: 500;
-  font-family: "Poppins", serif;
-  padding: 10px;
-}
-.top_destinations .container .destiantions .selling2 .massege {
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
 }
 .top_destinations .container .destiantions .selling2::before {
   content: "";
