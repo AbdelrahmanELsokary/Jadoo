@@ -52,6 +52,10 @@ a {
 img {
   max-width: 100%;
 }
+body.dark-mode{
+  background-color: var(--Reversed-Grey);
+  transition: 0.7s;
+}
 header .container {
   display: flex;
   justify-content: space-between;
